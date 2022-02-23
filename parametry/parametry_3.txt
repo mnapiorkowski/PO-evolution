@@ -5,11 +5,11 @@ pocz_energia 100
 ile_daje_jedzenie 10
 ile_rośnie_jedzenie 5
 koszt_tury 1
-pr_powielania 0.5
-ułamek_energii_rodzica 0.5
+pr_powielania 0,5
+ułamek_energii_rodzica 0,5
 limit_powielania 20
-pr_usunięcia_instr 0.4
-pr_dodania_instr 0.6
-pr_zmiany_instr 0.5
+pr_usunięcia_instr 0,4
+pr_dodania_instr 0,6
+pr_zmiany_instr 0,5
 spis_instr lpiwj
 co_ile_wypisz 10
