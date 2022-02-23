@@ -18,6 +18,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.Locale;
 
 public class Symulacja {
     private Parametry parametry;
@@ -200,7 +201,7 @@ public class Symulacja {
         ArrayList<String> plan_planszy = parser.dajPlanPlanszy();
 
         File parametry_txt = new File(args[1]);
-        sc = new Scanner(parametry_txt);
+        sc = new Scanner(parametry_txt).useLocale(Locale.FRENCH);
         parser.parsujParametry(sc);
         int[] param_i = parser.dajParamI();
         double[] param_d = parser.dajParamD();
