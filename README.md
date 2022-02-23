@@ -9,8 +9,10 @@ Exact task in Polish is in ```tresc.pdf``` file.
 ## How to run
 
 ```
-javac zad1/Symulacja.java
-java zad1/Symulacja plansze/plansza_1.txt parametry/parametry_1.txt
+cd src
+javac -d build zad1/Symulacja.java
+cd build
+java zad1/Symulacja ../../plansze/plansza_1.txt ../../parametry/parametry_1.txt
 ```
 
 ## Parameters
